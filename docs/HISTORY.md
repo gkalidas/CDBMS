@@ -4,8 +4,6 @@ This file keeps track of learning progress and practice programs.
 
 ---
 
-
-
 ## ✅ Program 833
 
 **File:** `practice/program833.java`  
