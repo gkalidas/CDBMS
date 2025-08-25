@@ -15,11 +15,17 @@ CDBMS/
  ├── src/
  │   └── cdbms/
  │       ├── Employee.java
- │       ├── Program847.java
+ │       ├── CDBMS.java
  │       ├── CDBMSApplication.java
  │       └── ... (other Java files)
- ├── README.md
- └── HISTORY.md
+ ├── practice/
+    ├── Program831.java
+    ├── *.java
+    ├── Program847.java
+    └── Program847.java
+├── docs/
+    └── HISTORY.md
+└── README.md
 ```
 
 * `src/cdbms/` → All Java source files.
