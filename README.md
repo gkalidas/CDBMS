@@ -66,4 +66,4 @@ CDBMS/
 
 ## 📜 History
 
-Check [HISTORY.md](./HISTORY.md) for incremental updates on what changed in each program.
+Check [HISTORY.md](.docs/HISTORY.md) for incremental updates on what changed in each program.
