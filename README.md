@@ -1,9 +1,8 @@
-# CDBMS
+# CDBMS - Customized Database Management System
+This repository contains simple programs and experiments related to building a **customized database management system**.
+
 A custom-built database management system (CDBMS) in Java for managing employee records using file-based serialization. Supports CRUD operations with a console interface.
 
-# CDBMS – Customized DBMS
-
-This repository contains simple programs and experiments related to building a **customized database management system**.
 It is written in **Java (for now)**, with plans to convert later into **Python** as well.
 
 ---
