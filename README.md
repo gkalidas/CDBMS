@@ -1,9 +1,18 @@
 # CDBMS - Customized Database Management System
-This repository contains simple programs and experiments related to building a **customized database management system**.
 
-A custom-built database management system (CDBMS) in Java for managing employee records using file-based serialization. Supports CRUD operations with a console interface.
+CDBMS is a **Java-based educational DBMS** that demonstrates how a database system can be built from scratch.
+It provides a menu-driven console interface where users can perform common database operations such as inserting, querying, deleting, and backing up employee records.
 
-It is written in **Java (for now)**, with plans to convert later into **Python** as well.
+---
+
+## ✨ Features
+
+* Insert new employee records
+* View all records (`SELECT *`)
+* Search employee by **ID** or **Name**
+* Delete employee by **ID**
+* Backup and restore data using serialization
+* Menu-driven console application
 
 ---
 
@@ -34,21 +43,16 @@ CDBMS/
 
 ---
 
-## ▶️ Running the Program
+## 🚀 How to Run
 
-1. Navigate to the `src` directory:
+1. Navigate to the `src` directory and compile the code into a `bin` folder:
 
    ```bash
    cd src
-   ```
-
-2. Compile all Java files:
-
-   ```bash
    javac cdbms/*.java
    ```
 
-3. Run the main class (example: `CDBMSApplication`):
+2. Run the application:
 
    ```bash
    java cdbms.CDBMSApplication
@@ -56,14 +60,40 @@ CDBMS/
 
 ---
 
-## 🔄 Next Steps
+## 🖥️ Sample Usage
 
-* Add more database-related logic incrementally.
-* Convert Java programs to **Python equivalents** in later commits.
-* Improve modularity and structure for easier experimentation.
+Example menu:
+
+```
+-------- Marvellous DBMS ----------
+1: Insert into Employee
+2: Select * from Employee
+3: Take a backup of Table
+4: Select * from Employee where EmpID
+5: Select * from Employee where EmpName
+6: Delete * from Employee where EmpID
+20: Terminate the DBMS
+```
+
+* Insert an employee
+* Query employees by ID or Name
+* Delete records
+* Take or restore backups
 
 ---
 
 ## 📜 History
 
-Check [HISTORY.md](./docs/HISTORY.md) for incremental updates on what changed in each program.
+Check the full changelog in [`docs/HISTORY.md`](./docs/HISTORY.md)
+
+---
+
+## 🔮 Future Enhancements
+
+* Implement `UPDATE` queries
+* Add more SQL-like syntax
+* Support multiple tables
+* Improve persistence with databases instead of file serialization
+* Add more database-related logic incrementally.
+* Convert Java programs to **Python equivalents** in later commits.
+* Improve modularity and structure for easier experimentation.
