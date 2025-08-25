@@ -69,5 +69,3 @@ Data from LL is : [10, 20, 30, 40]
 ### 🔹 Outcome
 - Learned the basics of working with **LinkedList**.  
 - This foundation will later be useful when storing employee records in the DBMS implementation.
-
----
