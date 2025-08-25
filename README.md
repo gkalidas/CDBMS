@@ -28,6 +28,8 @@ CDBMS/
 ```
 
 * `src/cdbms/` → All Java source files.
+* `practice/` → All practice programs.
+* `docs/` → All docs related to the proejct.
 * `HISTORY.md` → Keeps track of incremental changes made to each program.
 
 ---
