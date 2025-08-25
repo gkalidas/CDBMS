@@ -65,7 +65,7 @@ CDBMS/
 Example menu:
 
 ```
--------- Marvellous DBMS ----------
+-------- Welcome to CDBMS ----------
 1: Insert into Employee
 2: Select * from Employee
 3: Take a backup of Table
