@@ -4,6 +4,26 @@ This file keeps track of learning progress and practice programs.
 
 ---
 
+## ✅ Program 832
+
+**File:** `practice/program832.java`  
+**Date:** (add date here)
+
+### Description
+Small practice program that defines an `Employee` class and demonstrates object creation.
+
+### What the code does
+- Declares an `Employee` class with fields: `EmpID`, `EmpName`, `EmpAge`, `EmpAddress`, `EmpSalary`.
+- Constructs an `Employee` object with explicit values: `(11, "Amit", 23, "Pune", 21000)`.
+- Prints the `Employee` object using `System.out.println(eobj)`.
+
+### Key learnings / notes
+- Printing the object directly uses the default `Object.toString()` implementation, which prints a reference (class@hashcode) unless `toString()` is overridden.
+- This program highlights the need to override `toString()` (or provide a display method) for meaningful object output — implemented in later versions.
+
+### Example output (default)
+Employee@1a2b3c4d // actual hex/hash will vary
+
 
 ## ✅ Program 831
 **File:** `practice/program831.java`  
