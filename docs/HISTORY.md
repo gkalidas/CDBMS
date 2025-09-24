@@ -4,10 +4,32 @@ This file keeps track of learning progress and practice programs.
 
 ---
 
+## ✅ Program 833
+
+**File:** `practice/program833.java`  
+**Date:** 24/sep/2025
+
+### Description
+Demonstrates Java `static` initialization and constructor behavior while implementing an auto-incrementing employee ID.
+
+### What the code does
+- Declares an `Employee` class with fields: `EmpID`, `EmpName`, `EmpAge`, `EmpAddress`, `EmpSalary`.
+- Uses a `private static int Counter` and a static block to initialize the counter:
+  - Static block prints `"Inside static block."` and sets `Counter = 1`.
+- Constructor prints `"Inside constuctor."` each time an `Employee` is created and assigns `EmpID = Counter++`.
+- In `main`, creates four `Employee` instances with different names.
+- Prints the `EmpID` of each created `Employee`.
+
+### Key learnings
+- A **static block** runs once when the class is first loaded (before any object is constructed).
+- A **static counter** can be used to generate unique, auto-incrementing IDs across instances.
+- Constructor side-effects (like printing) run every time an object is created.
+- Order of outputs demonstrates class-loading vs. object-construction timing.
+
 ## ✅ Program 832
 
 **File:** `practice/program832.java`  
-**Date:** (add date here)
+**Date:** 23/sep/2025
 
 ### Description
 Small practice program that defines an `Employee` class and demonstrates object creation.
@@ -27,7 +49,7 @@ Employee@1a2b3c4d // actual hex/hash will vary
 
 ## ✅ Program 831
 **File:** `practice/program831.java`  
-**Date:** [Add the date you created it]
+**Date:** 23/sep/2025
 
 ### 🔹 Description
 This was the **first practice program** written during the journey of building the customized DBMS.  
